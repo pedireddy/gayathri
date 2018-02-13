@@ -17,10 +17,10 @@ digit++;
 }
 if((ch>0)&&(digit>0))
 {
-printf("string contains both alphabets and number");
+printf("yes");
 }
 else
 {
-printf("string does not contains both alphabets and number");
+printf("no");
 }
 }
