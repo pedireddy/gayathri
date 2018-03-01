@@ -2,11 +2,11 @@
 #include<string.h>
 void main()
 {
-	char a[50],b[50];
-	scanf("%s",a);
-	strcpy(b,a);
-	strrev(b);
-	if(strcmp(a,b)==0)
+	char p[40],q[40];
+	scanf("%s",p);
+	strcpy(q,p);
+	strrev(q);
+	if(strcmp(p,q)==0)
 	{
 		printf("Yes");
 	}
