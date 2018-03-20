@@ -1,19 +1,18 @@
 #include <stdio.h>
-int main()
+void main()
 {
-  int a[10],b[10],n,i;
+  int p[10],q[10],n,i;
   scanf("%d",&n);
   for(i=0;i<n;i++)
   {
-  scanf("%d",&a[i]);
+  scanf("%d",&p[i]);
   }
   for(i=0;i<n;i++)
   {
-    scanf("%d",&b[i]);
+    scanf("%d",&q[i]);
   }
   for(i=0;i<n;i++)
   {
-    printf("\n%d",b[i]-a[i]);
+    printf("\n%d",q[i]-p[i]);
   }
-  return 0;
 }
